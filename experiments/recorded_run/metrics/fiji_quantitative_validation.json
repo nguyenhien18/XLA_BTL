@@ -1,0 +1,25 @@
+{
+  "images": 10,
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "per_image_rows": 40,
+  "all_fields_match_python": true,
+  "fields_checked": [
+    "ground_truth_count",
+    "predicted_count",
+    "TP",
+    "FP",
+    "FN",
+    "precision",
+    "recall",
+    "F1",
+    "binary_iou",
+    "binary_dice"
+  ],
+  "method": "Fiji bundled ImageJ 1.54p and Groovy 4.0.23; Java 8; headless; maximum-cardinality instance matching and independent pixel counts",
+  "script_sha256": "94c46ff212a27a28e04b93e3db8f2885067d60681f2bde33c5d693ad240e0314"
+}

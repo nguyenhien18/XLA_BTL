@@ -1,0 +1,151 @@
+{
+  "images": 82,
+  "output_pairs": 492,
+  "reference": "stardist.matching.matching_dataset",
+  "checks": [
+    {
+      "method": "otsu",
+      "profile": "baseline",
+      "IoU": 0.5,
+      "status": "PASS"
+    },
+    {
+      "method": "otsu",
+      "profile": "baseline",
+      "IoU": 0.6,
+      "status": "PASS"
+    },
+    {
+      "method": "otsu",
+      "profile": "baseline",
+      "IoU": 0.7,
+      "status": "PASS"
+    },
+    {
+      "method": "otsu",
+      "profile": "baseline",
+      "IoU": 0.8,
+      "status": "PASS"
+    },
+    {
+      "method": "watershed",
+      "profile": "baseline",
+      "IoU": 0.5,
+      "status": "PASS"
+    },
+    {
+      "method": "watershed",
+      "profile": "baseline",
+      "IoU": 0.6,
+      "status": "PASS"
+    },
+    {
+      "method": "watershed",
+      "profile": "baseline",
+      "IoU": 0.7,
+      "status": "PASS"
+    },
+    {
+      "method": "watershed",
+      "profile": "baseline",
+      "IoU": 0.8,
+      "status": "PASS"
+    },
+    {
+      "method": "stardist_python",
+      "profile": "baseline",
+      "IoU": 0.5,
+      "status": "PASS"
+    },
+    {
+      "method": "stardist_python",
+      "profile": "baseline",
+      "IoU": 0.6,
+      "status": "PASS"
+    },
+    {
+      "method": "stardist_python",
+      "profile": "baseline",
+      "IoU": 0.7,
+      "status": "PASS"
+    },
+    {
+      "method": "stardist_python",
+      "profile": "baseline",
+      "IoU": 0.8,
+      "status": "PASS"
+    },
+    {
+      "method": "otsu",
+      "profile": "optimized",
+      "IoU": 0.5,
+      "status": "PASS"
+    },
+    {
+      "method": "otsu",
+      "profile": "optimized",
+      "IoU": 0.6,
+      "status": "PASS"
+    },
+    {
+      "method": "otsu",
+      "profile": "optimized",
+      "IoU": 0.7,
+      "status": "PASS"
+    },
+    {
+      "method": "otsu",
+      "profile": "optimized",
+      "IoU": 0.8,
+      "status": "PASS"
+    },
+    {
+      "method": "watershed",
+      "profile": "optimized",
+      "IoU": 0.5,
+      "status": "PASS"
+    },
+    {
+      "method": "watershed",
+      "profile": "optimized",
+      "IoU": 0.6,
+      "status": "PASS"
+    },
+    {
+      "method": "watershed",
+      "profile": "optimized",
+      "IoU": 0.7,
+      "status": "PASS"
+    },
+    {
+      "method": "watershed",
+      "profile": "optimized",
+      "IoU": 0.8,
+      "status": "PASS"
+    },
+    {
+      "method": "stardist_python",
+      "profile": "optimized",
+      "IoU": 0.5,
+      "status": "PASS"
+    },
+    {
+      "method": "stardist_python",
+      "profile": "optimized",
+      "IoU": 0.6,
+      "status": "PASS"
+    },
+    {
+      "method": "stardist_python",
+      "profile": "optimized",
+      "IoU": 0.7,
+      "status": "PASS"
+    },
+    {
+      "method": "stardist_python",
+      "profile": "optimized",
+      "IoU": 0.8,
+      "status": "PASS"
+    }
+  ]
+}

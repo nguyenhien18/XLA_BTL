@@ -1,0 +1,58 @@
+{
+  "project": "BTL_XLA",
+  "scope": "2D grayscale bright nuclei on dark background",
+  "data": {
+    "manifest": "data/manifest.csv",
+    "images": "data/prepared/images",
+    "labels": "data/prepared/labels",
+    "splits": "data/splits",
+    "source": "BBBC038v1 stage1_train",
+    "seed": 20261104,
+    "demo_seed": 20261105,
+    "stratification": "number_of_annotated_nuclei",
+    "ratios": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15
+    },
+    "image_resize": null,
+    "selection": {
+      "equal_rgb_channels": true,
+      "opaque_alpha": true,
+      "median_intensity_less_than": 100,
+      "foreground_mean_greater_than_background_mean": true
+    },
+    "selected_images": 545
+  },
+  "methods": [
+    "otsu",
+    "watershed",
+    "stardist_python",
+    "stardist_fiji"
+  ],
+  "model": {
+    "name": "2D_versatile_fluo",
+    "status": "pretrained_inference_verified",
+    "path": "models/2D_versatile_fluo",
+    "provenance": "models/2D_versatile_fluo_source.json",
+    "trained_by_group": false
+  },
+  "parameters": {
+    "status": "selected_on_82_validation_images_and_fixed_before_test",
+    "baseline_config": "configs/python_baseline.json",
+    "optimized_config": "configs/python_optimized.json",
+    "search_protocol": "configs/validation_search.json",
+    "selection_record": "results/metrics/validation_selection.json"
+  },
+  "evaluation": {
+    "split": "test",
+    "status": "test_completed_baseline_and_optimized",
+    "pretrained_independence": "not_verified",
+    "demo_summary": "results/metrics/methods_demo_summary.csv",
+    "reference_validation": "results/metrics/test_reference_validation.json",
+    "test_images": 82,
+    "test_summary": "results/metrics/final_test_summary.csv",
+    "benchmark": "results/metrics/benchmark_test_optimized_summary.csv",
+    "benchmark_validation": "results/metrics/benchmark_validation.json"
+  }
+}

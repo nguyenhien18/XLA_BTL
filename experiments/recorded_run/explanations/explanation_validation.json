@@ -1,0 +1,42 @@
+{
+  "png_count": 11,
+  "svg_count": 11,
+  "images": 2,
+  "network_parameters": 1425185,
+  "verified": [
+    "saved labels pixel equality (generation)",
+    "candidate/kept/suppressed counts",
+    "network output shapes",
+    "32 radial endpoints per illustration"
+  ],
+  "files": {
+    "01_stardist_workflow.png": "ecefad3eb137af3856177f1c64a4ea74187b85ca299acbe5654a718e7656bb40",
+    "01_stardist_workflow.svg": "720455015f1832690df1cd791e59942c8b556b03271e94f1da34a8720fb9c7af",
+    "06_target_vs_prediction.png": "d74c6d21ada65408b0a1d82edf828902426dce6112ce75d20960aff476e89cc2",
+    "06_target_vs_prediction.svg": "00f2cfbae2398fef638dd94dbc31e3a1854f8cc6bad70e00f5f23063b9a367d6",
+    "07_nms_overlap_vs_evaluation_iou.png": "dd12135e24021852f261378aaa8636cc08c1145df24b8ac99e91dfe170e63cb2",
+    "07_nms_overlap_vs_evaluation_iou.svg": "a9e608d6643eb4d6ea85ec6639c65722861b9c95626e358cdd45ca211a6b201e",
+    "explanation_metadata.json": "1834f0f6d0005fe3f4a4b998f77453e4463ddbebdf5a1458fd56d230bc6af541",
+    "img_0144_02_probability_map.png": "fd25e6b39dfea3d33a377c58ab155238a132d160f0f05d4832fee658521838a8",
+    "img_0144_02_probability_map.svg": "6f0caf6e7f2c91b06fd32f1c02e38adc027704ad84628f03328714241b6661af",
+    "img_0144_03_star_convex_rays.png": "f5732300774fece7bb06e9ed68904536ac2011e0e56d5c76e8b4d44f1a4f7dc3",
+    "img_0144_03_star_convex_rays.svg": "fccb29aacb5ca8e3455ee84adf167a02f899e7a6ac55ad85b15e9f689f136a12",
+    "img_0144_04_nms_before_after.png": "b9542402ab3322f24acaa648ea3c2c3e07421adcad10b4ba326c69457c06cd8f",
+    "img_0144_04_nms_before_after.svg": "ed66f3294d727c1258e7f34175df10fc6f1c1539d734fc28e5a02004ffeacf06",
+    "img_0144_05_final_labels.png": "1c8030e6a5d7f0f9cab668a47d09336f016c0605457cef5414d5f54e8b70c448",
+    "img_0144_05_final_labels.svg": "e3dfc125af51e638f1f1ea07e011443bc2cbd7bd0fa64cde9784c7546ebac628",
+    "img_0144_network_outputs.npz": "cef55d7771186f1fa9f0bf729950a1c97faab119ffa5fb6e71090d3142aba3e7",
+    "img_0144_rays.csv": "f9afcb45dc491c1c6db98bd9b9eb9378c684c2533da96304d218c645cc8aa03c",
+    "img_0320_02_probability_map.png": "dbed446e97a93651e400b687ca0b42ffd0b3537b1256a5ad2714375d49b1efe8",
+    "img_0320_02_probability_map.svg": "0217f6b7abdff3148092a8819a9885597e27a1d2442fbdc7b38296f43b9fb5ec",
+    "img_0320_03_star_convex_rays.png": "2ddc995eb7fecd06d77b21a44a40419692f353197296043ff75cc4a6c1f5e91e",
+    "img_0320_03_star_convex_rays.svg": "5b735d8eff00f35b35ace2c30dbcd910835f1ec1a5e30c1038c19b69769460c0",
+    "img_0320_04_nms_before_after.png": "4203b17a7686f6d5f663ec7e4e6c9df660e9723de8ca17ab1267ad196d9d1bb0",
+    "img_0320_04_nms_before_after.svg": "fda7894eb009fe6d6ac38cd51ef0bca1127e9306fa0ef70a913ad14373403b7d",
+    "img_0320_05_final_labels.png": "ff0edc19525aaef47a3562b5db5005ef7265bbc83933c2d0c5dbf31a9361cc51",
+    "img_0320_05_final_labels.svg": "1d8aa6425c5c617aaeef8627879d2e3e53d7ca7512326ec5303a45a04834fcca",
+    "img_0320_network_outputs.npz": "ab1acdd2f7a772e61054f2c8cd31d4f0fa32aed878198febfb9e1c3ba667d401",
+    "img_0320_rays.csv": "ce10a16679f5675655a3bfc6c323c8a1028b3d8714a1c1dde169870aacfda290",
+    "model_summary.txt": "da0b4e2d45fcf9926b1c984c3010add6b2df589d0202e1a0ad648ede16769162"
+  }
+}

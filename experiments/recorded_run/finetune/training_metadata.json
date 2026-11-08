@@ -1,0 +1,40 @@
+{
+  "protocol": {
+    "model_name": "stardist_finetuned_v1",
+    "seed": 20261105,
+    "epochs": 20,
+    "steps_per_epoch": 64,
+    "batch_size": 4,
+    "patch_size": [
+      128,
+      128
+    ],
+    "learning_rate": 1e-05,
+    "initialization": "2D_versatile_fluo pretrained weights",
+    "augmentation": "random 90-degree rotations, flip, intensity scale 0.8-1.2 and offset -0.1 to 0.1",
+    "early_stopping": "val_loss, patience=5, min_delta=0.0001; best checkpoint selected by minimum val_loss",
+    "comparison_thresholds": {
+      "probability": 0.55,
+      "nms": 0.3
+    },
+    "purpose": "Small reproducible fine-tuning experiment; no promise of improvement; test not used for training or checkpoint selection"
+  },
+  "source_weights_sha256": "42202bd269c8106782316f1a2c75afb3f5ffa65e525c2e155ee0ced3a95da349",
+  "train_images": 381,
+  "validation_images": 82,
+  "selection": "lowest validation patch loss; fixed maximum epochs and early stopping; test not used",
+  "splits_sha256": {
+    "train": "d9c3eda4a36d7d417506f8bfb59e1ffff1caaf3959b3e5ce7f000eb95776f8dc",
+    "val": "8337268c7f39704882d075ce01ba2f39e85b56c587e38a78f06b3167eb7f7fd2",
+    "test": "7c39bf71dba01496fa0d3083377a1430a20838ef9c18ab69bfefa3dd403ad53d"
+  },
+  "status": "complete",
+  "tensorflow": "2.20.0",
+  "device": "CPU",
+  "caveat": "pretrained original training data may overlap DSB2018; not a proven unseen test",
+  "elapsed_seconds": 710.9618904000381,
+  "epochs_completed": 16,
+  "best_epoch": 11,
+  "best_validation_loss": 0.2764783501625061,
+  "weights_sha256": "812e12ab27700c18a4d480811ec408afe6be8a3e74302d580c7f917d807140de"
+}

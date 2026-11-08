@@ -1,0 +1,9 @@
+{
+  "measurement_rows": 1230,
+  "images": 82,
+  "repeats": 5,
+  "methods": 3,
+  "output_counts_match_saved_predictions": true,
+  "all_positive_times": true,
+  "project_workloads_serialized": true
+}

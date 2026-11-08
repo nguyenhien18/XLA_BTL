@@ -1,0 +1,14 @@
+{
+  "seed": 20261104,
+  "purpose": "Baseline parameters fixed before validation tuning; demo overlap with test is for workflow verification.",
+  "otsu": {"sigma": 0.0, "min_area": 0},
+  "watershed": {"sigma": 0.0, "min_area": 0, "min_distance": 5},
+  "stardist_python": {
+    "model_dir": "models/2D_versatile_fluo",
+    "probability": 0.48,
+    "nms": 0.3,
+    "boundary": 0,
+    "percentile_low": 1.0,
+    "percentile_high": 99.8
+  }
+}

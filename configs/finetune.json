@@ -1,0 +1,14 @@
+{
+  "model_name": "stardist_finetuned_v1",
+  "seed": 20261105,
+  "epochs": 20,
+  "steps_per_epoch": 64,
+  "batch_size": 4,
+  "patch_size": [128, 128],
+  "learning_rate": 0.00001,
+  "initialization": "2D_versatile_fluo pretrained weights",
+  "augmentation": "random 90-degree rotations, flip, intensity scale 0.8-1.2 and offset -0.1 to 0.1",
+  "early_stopping": "val_loss, patience=5, min_delta=0.0001; best checkpoint selected by minimum val_loss",
+  "comparison_thresholds": {"probability": 0.55, "nms": 0.3},
+  "purpose": "Small reproducible fine-tuning experiment; no promise of improvement; test not used for training or checkpoint selection"
+}

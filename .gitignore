@@ -1,0 +1,31 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+# Credentials and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+# Downloaded data, generated labels and new experiment outputs
+data/downloads/
+data/prepared/
+models/*/
+models/*.zip
+models/*.h5
+results/
+docs/*_comparison.md
+# Temporary and Office lock files
+*.part
+*.tmp
+~$*
+Thumbs.db
+.DS_Store

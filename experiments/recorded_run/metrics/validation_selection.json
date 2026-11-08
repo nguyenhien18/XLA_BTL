@@ -1,0 +1,46 @@
+{
+  "split": "val",
+  "images": 82,
+  "dataset_sha256": "30b8ecc5115620cf325fb651b7c306de515a21d0b98e511f878d8a5c17e6c02a",
+  "protocol_sha256": "9ebeb94c249264246c51e3dfa45cdf862a3c77658141a4c87976c323fd5da9cc",
+  "objective": "mean_pooled_instance_F1_at_IoU_0.5_0.6_0.7",
+  "tie_break": "first configuration in the declared grid order",
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7
+  ],
+  "methods": {
+    "otsu": {
+      "parameters": {
+        "sigma": 0.0,
+        "min_area": 32
+      },
+      "objective": 0.7001813087193011,
+      "candidates": 12,
+      "selected_candidate": 2,
+      "elapsed_seconds": 9.821022099931724
+    },
+    "watershed": {
+      "parameters": {
+        "sigma": 0.0,
+        "min_area": 32,
+        "min_distance": 9
+      },
+      "objective": 0.7698607698607699,
+      "candidates": 36,
+      "selected_candidate": 11,
+      "elapsed_seconds": 64.43873629998416
+    },
+    "stardist_python": {
+      "parameters": {
+        "probability": 0.55,
+        "nms": 0.3
+      },
+      "objective": 0.9355277064774271,
+      "candidates": 15,
+      "selected_candidate": 10,
+      "elapsed_seconds": 52.7692437999649
+    }
+  }
+}

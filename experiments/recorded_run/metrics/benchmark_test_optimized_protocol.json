@@ -1,0 +1,26 @@
+{
+  "device": "CPU",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "repeats": 5,
+  "warmup": "one untimed call per image per method",
+  "order": "seeded random method order within each image/repetition",
+  "seed": 20261104,
+  "config_sha256": "e0f651cfab4d1a853cb9756fc1eb3703baa3318b99ef1f8d6dae8a05a8777249",
+  "included": [
+    "preprocessing/normalization",
+    "segmentation",
+    "StarDist NMS and rasterization"
+  ],
+  "excluded": [
+    "input file IO",
+    "model construction",
+    "writing outputs",
+    "evaluation",
+    "object counting"
+  ],
+  "thread_configuration": "StarDist: intra=4, inter=2, OMP_NUM_THREADS=4; other library defaults",
+  "project_evaluation_tasks_parallel": false,
+  "external_background_load_controlled": false,
+  "note": "Measured in a separate run without project evaluation jobs, on this machine and dataset; not a universal speed ranking."
+}

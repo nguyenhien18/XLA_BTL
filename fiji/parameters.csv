@@ -1,0 +1,9 @@
+run_id,image,model,probability_threshold,nms_threshold,normalization,plugin_version,output,notes
+"fiji_batch_20261104_215821_5e98d3","img_0053","Versatile (fluorescent nuclei)","0.48","0.3","percentile 1/99.8","0.3.0","img_0053.tif;img_0053_rois.zip","normalize=true;tiles=1;boundary=0;ROI polygons verified against label pixels"
+"fiji_batch_20261104_215821_5e98d3","img_0103","Versatile (fluorescent nuclei)","0.48","0.3","percentile 1/99.8","0.3.0","img_0103.tif;img_0103_rois.zip","normalize=true;tiles=1;boundary=0;ROI polygons verified against label pixels"
+"fiji_batch_20261104_215821_5e98d3","img_0118","Versatile (fluorescent nuclei)","0.48","0.3","percentile 1/99.8","0.3.0","img_0118.tif;img_0118_rois.zip","normalize=true;tiles=1;boundary=0;ROI polygons verified against label pixels"
+"fiji_batch_20261104_215821_5e98d3","img_0130","Versatile (fluorescent nuclei)","0.48","0.3","percentile 1/99.8","0.3.0","img_0130.tif;img_0130_rois.zip","normalize=true;tiles=1;boundary=0;ROI polygons verified against label pixels"
+"fiji_batch_20261104_215821_5e98d3","img_0144","Versatile (fluorescent nuclei)","0.48","0.3","percentile 1/99.8","0.3.0","img_0144.tif;img_0144_rois.zip","normalize=true;tiles=1;boundary=0;ROI polygons verified against label pixels"
+"fiji_batch_20261104_215821_5e98d3","img_0257","Versatile (fluorescent nuclei)","0.48","0.3","percentile 1/99.8","0.3.0","img_0257.tif;img_0257_rois.zip","normalize=true;tiles=1;boundary=0;ROI polygons verified against label pixels"
+"fiji_batch_20261104_215821_5e98d3","img_0307","Versatile (fluorescent nuclei)","0.48","0.3","percentile 1/99.8","0.3.0","img_0307.tif;img_0307_rois.zip","normalize=true;tiles=1;boundary=0;ROI polygons verified against label pixels"
+"fiji_batch_20261104_215821_5e98d3","img_0426","Versatile (fluorescent nuclei)","0.48","0.3","percentile 1/99.8","0.3.0","img_0426.tif;img_0426_rois.zip","normalize=true;tiles=1;boundary=0;ROI polygons verified against label pixels"

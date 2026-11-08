@@ -1,0 +1,69 @@
+{
+  "source_images": 670,
+  "selected_images": 545,
+  "selected_nuclei": 23540,
+  "excluded": {
+    "color_image_outside_scope": 108,
+    "bright_background_outside_scope": 16,
+    "annotated_foreground_not_brighter_than_background": 1
+  },
+  "seed": 20261104,
+  "demo_seed": 20261105,
+  "splits": {
+    "train": {
+      "images": 381,
+      "nuclei": 16338
+    },
+    "val": {
+      "images": 82,
+      "nuclei": 3350
+    },
+    "test": {
+      "images": 82,
+      "nuclei": 3852
+    }
+  },
+  "strata": {
+    "02_11-30": {
+      "train": 162,
+      "test": 35,
+      "val": 35
+    },
+    "03_31-60": {
+      "train": 87,
+      "test": 19,
+      "val": 19
+    },
+    "04_61-100": {
+      "train": 30,
+      "val": 6,
+      "test": 6
+    },
+    "05_over100": {
+      "train": 41,
+      "test": 9,
+      "val": 9
+    },
+    "01_1-10": {
+      "train": 61,
+      "val": 13,
+      "test": 13
+    }
+  },
+  "demo_images": [
+    "img_0053",
+    "img_0103",
+    "img_0118",
+    "img_0130",
+    "img_0144",
+    "img_0257",
+    "img_0307",
+    "img_0320",
+    "img_0426",
+    "img_0441"
+  ],
+  "source_sha256": "dcb6edc2690f137406638b2309581a71522c4dff19157d118453b448dcddcb68",
+  "geometry_changed": false,
+  "grayscale_intensities_preserved": true,
+  "pretrained_test_independence": "Not established: StarDist pretrained models used DSB2018 subsets."
+}

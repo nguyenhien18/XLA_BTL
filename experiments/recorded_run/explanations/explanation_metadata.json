@@ -1,0 +1,78 @@
+{
+  "model": "2D_versatile_fluo",
+  "pretrained": true,
+  "weights_sha256": "42202bd269c8106782316f1a2c75afb3f5ffa65e525c2e155ee0ced3a95da349",
+  "parameters": {
+    "probability": 0.55,
+    "nms": 0.3,
+    "boundary": 0,
+    "percentile_low": 1.0,
+    "percentile_high": 99.8
+  },
+  "network_parameters": 1425185,
+  "grid": [
+    2,
+    2
+  ],
+  "n_rays": 32,
+  "nms_overlap_definition": "intersection_area / min(polygon_area_1, polygon_area_2)",
+  "evaluation_iou_definition": "intersection_area / union_area",
+  "images": [
+    {
+      "image": "img_0144",
+      "input_shape_yx": [
+        360,
+        360
+      ],
+      "score_shape_yx": [
+        180,
+        180
+      ],
+      "distance_shape": [
+        180,
+        180,
+        32
+      ],
+      "candidate_count": 2563,
+      "retained_count": 29,
+      "suppressed_count": 2534,
+      "labels_identical_to_saved_optimized": true,
+      "selected_origin_yx": [
+        312,
+        98
+      ],
+      "selected_score": 0.9267058372497559,
+      "selected_gt_id_for_display_only": 30,
+      "local_candidate_count": 144,
+      "local_retained_count": 1
+    },
+    {
+      "image": "img_0320",
+      "input_shape_yx": [
+        256,
+        256
+      ],
+      "score_shape_yx": [
+        128,
+        128
+      ],
+      "distance_shape": [
+        128,
+        128,
+        32
+      ],
+      "candidate_count": 632,
+      "retained_count": 42,
+      "suppressed_count": 590,
+      "labels_identical_to_saved_optimized": true,
+      "selected_origin_yx": [
+        218,
+        48
+      ],
+      "selected_score": 0.8995082974433899,
+      "selected_gt_id_for_display_only": 37,
+      "local_candidate_count": 25,
+      "local_retained_count": 1
+    }
+  ]
+}

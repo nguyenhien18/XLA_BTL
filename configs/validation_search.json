@@ -1,0 +1,10 @@
+{
+  "selection_split": "val",
+  "objective": "mean_pooled_instance_F1_at_IoU_0.5_0.6_0.7",
+  "iou_thresholds": [0.5, 0.6, 0.7],
+  "tie_break": "first configuration in the declared grid order",
+  "seed": 20261104,
+  "otsu": {"sigma": [0.0, 0.8, 1.2], "min_area": [0, 16, 32, 64]},
+  "watershed": {"sigma": [0.0, 0.8, 1.2], "min_area": [0, 16, 32], "min_distance": [3, 5, 7, 9]},
+  "stardist_python": {"probability": [0.3, 0.4, 0.48, 0.55, 0.65], "nms": [0.2, 0.3, 0.4]}
+}
